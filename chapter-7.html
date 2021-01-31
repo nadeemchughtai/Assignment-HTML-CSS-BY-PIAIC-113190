@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter-7</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form action="http://www.example.com/login.php" method="GET">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <p>
+                Name:
+                <input type="text" name="fullname" size="30" maxlength="30"/>
+                <br /><br />
+                Email:
+                <input type="text" name="email" size="30" maxlength="30"/>
+            </p>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <p>
+                How did you hear about us?
+                <select name="source">
+                    <option value="">Select....</option>
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="youtube">YouTube</option>
+                </select>    
+            </p>
+
+            <p>
+                Would you visit again?
+                <label><input type="radio" name="visit" value="y"/>Yes</label>
+                <label><input type="radio" name="visit" value="n"/>No</label>
+                <label><input type="radio" name="visit" value="mb"/>Maybe</label>
+            </p>
+
+            <p>
+                Comments:
+            <br />
+                <textarea name="comments" rows="5" cols="50"> Enter your comments...</textarea>
+            </p>
+        
+            <p>
+                <input type="checkbox" name="signup" value="su"/> Sign me up for email updates
+            </p>
+        
+            <p>
+                <input type="submit" value="Submit review"/>
+            </p>
+        
+        </fieldset>
+        
+        
+        <!-- <p>
+            Gender:
+            <input id="male" type="radio" name="gender" value="m" checked/>
+            <label for="male">Male</label>
+            <label><input type="radio" name="gender" value="f"/>Female</label>
+        </p>
+        
+        <p>
+            Nationality:
+            <select name="countries">
+                <option value="">Select....</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="china">China</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="america">America</option>
+                <option value="saudiarabia">Saudi Arabia</option>
+            </select>
+        </p>
+
+        <p>
+            Languages:
+            <select name="languages" multiple>
+                <option value="">Select....</option>
+                <option value="english">English</option>
+                <option value="german">German</option>
+                <option value="arabic">Arabic</option>
+                <option value="urdu">Urdu</option>
+                <option value="chinese">Chinese</option>
+            </select>
+        </p>
+
+        <p>
+            Password:
+            <input type="password" name="password" size="15" maxlength="30"/>
+            Re-Enter Password:
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+
+        <p>
+            Interests:
+            <input type="checkbox" name="interests" value="cricket"/> Cricket
+            <input type="checkbox" name="interests" value="football"/> Football
+            <input type="checkbox" name="interests" value="Hockey"/> Hockey
+            <input type="checkbox" name="interests" value="Snooker"/> Snooker
+        </p>
+
+        <p>
+            Comments:
+        </p>
+            <textarea name="comments" rows="5" cols="50"> Enter your comments...</textarea>
+
+            <p>
+                Upload File:
+            </p>
+
+            <p>
+                <input type="file" name="dp"/>
+                <br />
+                <br />
+                <input type="submit" value="Upload"/>
+                <input type="submit"/>
+                <br />
+                <br />
+                <input type="image" src="Happy New Year 2021.jpg" width="150">
+            </p>
+        
+
+
+         -->
+    </form>
+<!-- 
+
+
+
+    <p>Worldwide Smartphone Market, Top 5 Company Shipments, Market Share, and Year-over-Year Growth, Q2 2018</p>
+    <h2>Top 3 Smartphone:</h2>
+    <Ol>
+        <li>Samsung
+            <ul>
+                <li>Samsung Galaxy S10 Plus</li>
+                <li>Samsung Galaxy S9</li>
+                <li>Samsung Galaxy J5</li>
+            </ul>
+        </li>
+        <li>Huawei
+            <ul>
+                <li>Huawei P30 Pro</li>
+                <li>Huawei Mate 20 Pro</li>
+                <li>Huawei P30</li>
+            </ul>
+        </li>
+        <li>Apple
+            <ul>
+                <li>Apple iphone 11</li>
+                <li>Apple iPhone XR</li>
+                <li>Apple iPhone 11 Pro</li>
+            </ul>
+        </li>
+    </Ol> -->
+</body>
+</html>
